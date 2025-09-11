@@ -47,6 +47,24 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        traffic: {
+          green: "hsl(var(--traffic-green))",
+          yellow: "hsl(var(--traffic-yellow))",
+          red: "hsl(var(--traffic-red))",
+          "green-glow": "hsl(var(--traffic-green-glow))",
+          "yellow-glow": "hsl(var(--traffic-yellow-glow))",
+          "red-glow": "hsl(var(--traffic-red-glow))",
+        },
+        status: {
+          optimal: "hsl(var(--status-optimal))",
+          moderate: "hsl(var(--status-moderate))",
+          congested: "hsl(var(--status-congested))",
+        },
+        cyber: {
+          DEFAULT: "hsl(var(--cyber))",
+          bright: "hsl(var(--cyber-bright))",
+          dark: "hsl(var(--cyber-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
